@@ -1,0 +1,157 @@
+body{
+  font-family: "Josefin Sans";
+}
+.container{
+    margin:0px;
+    padding:0;
+   height:710px;
+   width:1500px;
+}
+.content{
+    width:400px;
+}
+
+.main-content{
+    height:700px;
+    width:720px;
+    margin:0 0 0 250px;
+    
+}
+.logo{
+    margin-top:80px;
+}
+@media(max-width:700px)
+{
+    .main-content{
+        text-align: center; 
+        width:490px;
+        height:720px;
+        margin-left:50%;
+
+    }
+    .container{
+        width:100%;
+        margin:0 300px 0 -250px;
+    }
+    .logo{
+        margin:10px 250px 30px -50px;
+        margin-top:10px;
+        margin-bottom: 30px;;
+    }
+    .content{
+        margin:auto;
+    }
+}
+.profile-img-small{
+    width:100%;
+}
+
+
+.profile-img{
+    position: relative;
+    height:842px;
+    width:38%;
+    margin:-800px 0 0 958px;
+
+}
+@media(max-width:700px){
+    .profile-img{
+        display:none;
+    }
+}
+@media(min-width:700px)
+{
+    .profile-img-small{
+        display: none;
+    }
+}
+
+
+
+
+
+
+h1{
+   color: hsl(0, 36%, 70%);
+   font-weight: 300;
+   font-size:80px;
+   letter-spacing: 25px;
+   margin:80px 0 -70px 0 ;
+}
+h2{
+    color:hsl(0, 6%, 24%);
+    font-weight:600;
+    font-size:80px;
+    letter-spacing: 25px;
+}
+p{
+    color: hsl(0, 36%, 70%);
+    font-size: 20px;
+    /* background-color: blue; */
+    width:520px;
+    margin:-50px 0 30px 0 ;
+    font-weight: 400;
+    line-height: 30px;
+}
+@media(max-width:700px)
+{
+    h1{
+        font-size: 30px;margin;
+        text-align: center;
+        margin:5px 0 5px 0;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin:5px 0 15px 0;
+    }
+
+    
+    p{
+        font-size: 15px;
+        width:400px;
+        text-align: center;
+        margin:5px 0 5px 0;
+        
+    }
+
+
+}
+
+
+
+
+input[type=email]{
+    
+    height:30px;
+    width:250px;
+    /* border-color: /white; */
+    border-radius:50px;
+} 
+input[type=image]
+{ 
+    position: absolute;
+    height:15px;
+    width:15px;
+    margin:10px 0 0 5px;
+}
+.submit{
+    height:35px;
+    width:60px;
+    background-color:hsl(0, 45%, 84%);
+    position:absolute;
+    margin:1px 0 0 240px;
+    border-radius: 15px;
+    box-shadow:0 0 10px black;
+;}
+@media(max-width:700px)
+{
+    .submit{
+        margin:1px 0 0 305px;
+
+    }
+   
+
+
+
+}
